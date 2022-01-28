@@ -47,4 +47,8 @@ Bonus (optional)
 
 ### Install instructions:
 
-* 
+- ./vendor/bin/sail up -d -build
+- ./vendor/bin/sail composer install
+- ./vendor/bin/sail php artisan migrate
+- ./vendor/bin/sail npm run watch
+
